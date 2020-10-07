@@ -1,5 +1,5 @@
 * {
-    font-family: "Helvetica";
+    font-family: 'Open Sans', sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -7,13 +7,15 @@
 header {
     display: flex;
     color: white;
-    background: linear-gradient(135deg, rgba(90,171,97,1) 0%, rgba(170,255,0,1) 60%, rgba(255,223,0,1) 100%);
+    background: black;
     justify-content: center;
     align-items: center;
     height: 200px;
     font-size: 32px;
 }
 
-#content {
+main {
     padding: 50px;
+    font-size: 24px;
+    color: gray;
 }
