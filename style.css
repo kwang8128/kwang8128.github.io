@@ -19,3 +19,26 @@ main {
     font-size: 24px;
     color: gray;
 }
+
+.navbar {
+    height: 20%; /* Full-height: remove this if you want "auto" height */
+    width: 100%; /* Set the width of the sidebar */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: MediumSpringGreen; /* Black */
+    overflow-x: hidden;
+}
+
+.navbar a {
+    float: left;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    float: left;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: #00EA8A;
+}
