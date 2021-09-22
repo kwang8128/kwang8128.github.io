@@ -26,19 +26,28 @@ main {
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
     left: 0;
-    background-color: MediumSpringGreen; /* Black */
+    background-color: MediumSpringGreen;
     overflow-x: hidden;
 }
 
-.navbar a {
+.navbar a:not(:last-child) {
     float: left;
     padding: 14px 16px;
     text-decoration: none;
+    font-size: 24px;
 }
 
-.navbar a:hover {
+.navbar a:not(:last-child):hover {
+    float: left;
+    padding: 14px 16px;
+    background-color: #00EA8A;
+    font-size: 30px;
+}
+
+.navbar a:last-child {
+    color: MediumSpringGreen;
     float: left;
     padding: 14px 16px;
     text-decoration: none;
-    background-color: #00EA8A;
+    font-size: 24px;
 }
