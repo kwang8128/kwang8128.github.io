@@ -56,7 +56,7 @@ main {
     display: flex;
 }
 
-.col {
+.col-2 {
     padding: 8px;
     flex: 50%;
     word-wrap: break-word;
